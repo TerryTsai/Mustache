@@ -1,0 +1,25 @@
+Truthy
+--------------------------------------
+int 2147483647 : Truthy
+byte 127 : Truthy
+bool true : Truthy
+float 3.5 : Truthy
+long 9223372036854775807 : Truthy
+char f : Truthy
+short 32767 : Truthy
+string string thing : Truthy
+double 1.0004 : Truthy
+map {key=value} : Truthy
+list [item] : Truthy
+array [1] : Truthy
+zero 0 : Truthy
+
+
+Falsey
+--------------------------------------
+null null : Falsey
+false false : Falsey
+emptylist [] : Falsey
+emptyarray [] : Falsey
+
+￿

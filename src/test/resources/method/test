@@ -1,0 +1,5 @@
+{{#people}}
+    First Name: {{$.firstname}}
+    Last Name: {{$.lastname}}
+    Full Name: {{$.fullname($.firstname,$.lastname)}}
+{{/}}

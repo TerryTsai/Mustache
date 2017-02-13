@@ -1,0 +1,5 @@
+Should pass: This is the output of a.b.c
+Should fail: null
+
+Should pass: This is the output of z.key.key.key
+Should fail: null￿

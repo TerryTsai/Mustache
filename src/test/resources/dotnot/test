@@ -1,0 +1,5 @@
+Should pass: {{a.b.c}}
+Should fail: {{a.a.a}}
+
+Should pass: {{z.key.key.key}}
+Should fail: {{z.value.value.value}}

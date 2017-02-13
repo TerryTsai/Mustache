@@ -1,0 +1,24 @@
+Truthy
+--------------------------------------
+int {{int}} : {{#int}}Truthy{{/int}}{{^int}}Falsey{{/int}}
+byte {{byte}} : {{#byte}}Truthy{{/byte}}{{^byte}}Falsey{{/byte}}
+bool {{bool}} : {{#bool}}Truthy{{/bool}}{{^bool}}Falsey{{/bool}}
+float {{float}} : {{#float}}Truthy{{/float}}{{^float}}Falsey{{/float}}
+long {{long}} : {{#long}}Truthy{{/long}}{{^long}}Falsey{{/long}}
+char {{char}} : {{#char}}Truthy{{/char}}{{^char}}Falsey{{/char}}
+short {{short}} : {{#short}}Truthy{{/short}}{{^short}}Falsey{{/short}}
+string {{string}} : {{#string}}Truthy{{/string}}{{^string}}Falsey{{/string}}
+double {{double}} : {{#double}}Truthy{{/double}}{{^double}}Falsey{{/double}}
+map {{map}} : {{#map}}Truthy{{/map}}{{^map}}Falsey{{/map}}
+list {{list}} : {{#list}}Truthy{{/list}}{{^list}}Falsey{{/list}}
+array {{array}} : {{#array}}Truthy{{/array}}{{^array}}Falsey{{/array}}
+zero {{zero}} : {{#zero}}Truthy{{/zero}}{{^zero}}Falsey{{/zero}}
+
+
+Falsey
+--------------------------------------
+null {{null}} : {{#null}}Truthy{{/null}}{{^null}}Falsey{{/null}}
+false {{false}} : {{#false}}Truthy{{/false}}{{^false}}Falsey{{/false}}
+emptylist {{emptylist}} : {{#emptylist}}Truthy{{/emptylist}}{{^emptylist}}Falsey{{/emptylist}}
+emptyarray {{emptyarray}} : {{#emptyarray}}Truthy{{/emptyarray}}{{^emptyarray}}Falsey{{/emptyarray}}
+

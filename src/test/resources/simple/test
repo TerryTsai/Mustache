@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {{^error}}<h1>Success!!!</h1>{{/error}}
+    {{#error}}<h1>Failure?!?</h1>{{/error}}
+    <h1>{{error}}</h1>
+    <p>{{event1.id}}</p>
+    <p>{{event1.date}}</p>
+</body>
+</html>

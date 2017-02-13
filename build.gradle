@@ -1,0 +1,26 @@
+group 'email.com.gmail.ttsai0509'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'java-library-distribution'
+
+//noinspection GroovyUnusedAssignment
+sourceCompatibility = 1.8
+
+//noinspection GroovyAssignabilityCheck
+distributions {
+    main{
+        baseName = 'mustache'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'com.squareup.retrofit2', name: 'retrofit', version: '2.1.0'
+    testCompile group: 'com.squareup.retrofit2', name: 'converter-gson', version: '2.1.0'
+
+}

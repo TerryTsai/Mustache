@@ -1,0 +1,3 @@
+{{#list}}{{#pairs}}{{key}}-{{val}}
+{{/pairs}}
+{{/list}}

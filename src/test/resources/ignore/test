@@ -1,0 +1,6 @@
+{{#people}}{{name}} ({{age}})
+{{#address}}Found Address: {{address}}
+{{/address}}Notes: {{^notes}}N/A{{/notes}}
+{{#notes}} - {{note}}
+{{/notes}}
+{{/people}}
