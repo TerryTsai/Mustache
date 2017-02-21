@@ -4,6 +4,7 @@ import java.io.FilterReader;
 import java.io.IOException;
 import java.io.Reader;
 
+
 @SuppressWarnings({"WeakerAccess", "StatementWithEmptyBody", "UnusedAssignment"})
 public class MustacheReader extends FilterReader {
 
